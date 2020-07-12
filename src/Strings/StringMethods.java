@@ -3,6 +3,7 @@ package Strings;
 public class StringMethods {
     public static void main(String[] args)
     {
+
         //creating using literals
         String str="manish";
         String str1=" reddy";
@@ -52,7 +53,5 @@ public class StringMethods {
         StringBuilder stb = new StringBuilder("Reddy ");
         stb.append("Manish");
         System.out.println("builder:"+stb);
-
-
     }
 }
