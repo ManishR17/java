@@ -23,7 +23,7 @@ public class SumOfPairs {
         int sum=sc.nextInt();
         System.out.println("size of array:");
         int n=sc.nextInt();
-        int p1=0;int p2=n-1;
+        int p1=0, p2=n-1;
         int[] arr=new int[n];
         System.out.println("array elements:");
         for(int i=0;i<n;i++)
