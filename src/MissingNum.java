@@ -1,17 +1,17 @@
 public class MissingNum {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
-        int arr[]={1,2,3,4,5,6};
-        int arr1[]={1,2,3,5,6};
-        int n=arr.length;
-        int sum=(n*(n+1))/2;
-        int arraysum=0;
-        for(int i=0;i<n-1;i++)
-        {
-            arraysum+=arr1[i];
+        int arr[] = {5, 8, 7, 6, 10};
+        int arr1[] = {5, 7, 6, 8};
+        int sum = 0;
+        int arraysum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
         }
-        System.out.println(sum-arraysum);
-    }
+        for (int i = 0; i < arr1.length; i++) {
+            arraysum += arr1[i];
+        }
+        System.out.println(sum - arraysum);
 
+    }
 }
